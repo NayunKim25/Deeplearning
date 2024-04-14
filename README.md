@@ -34,6 +34,7 @@ MNIST Classification
 **2. Plots for each model: loss and accuracy curves for training and test datasets.**
    
   **2-(1) LeNet-5**
+  
    LeNet-5 | Epoch [1/10]: Train Loss: 0.2811, Train Acc: 90.84% | Test Loss: 0.0614, Test Acc: 97.96%
    
    LeNet-5 | Epoch [2/10]: Train Loss: 0.0620, Train Acc: 98.03% | Test Loss: 0.0543, Test Acc: 98.28%
@@ -57,28 +58,41 @@ MNIST Classification
    ![image](https://github.com/NayunKim25/Deeplearning/assets/144984333/c9c3da91-0857-4d6c-9c89-f6f40d2bd0eb)
 
   **2-(2) Custom MLP**
+  
    Custom MLP | Epoch [1/10]: Train Loss: 0.3950, Train Acc: 87.68% | Test Loss: 0.1262, Test Acc: 95.95%
+   
    Custom MLP | Epoch [2/10]: Train Loss: 0.1102, Train Acc: 96.62% | Test Loss: 0.0935, Test Acc: 97.10%
+   
    Custom MLP | Epoch [3/10]: Train Loss: 0.0722, Train Acc: 97.83% | Test Loss: 0.0800, Test Acc: 97.42%
+   
    Custom MLP | Epoch [4/10]: Train Loss: 0.0518, Train Acc: 98.41% | Test Loss: 0.0706, Test Acc: 97.78%
+   
    Custom MLP | Epoch [5/10]: Train Loss: 0.0382, Train Acc: 98.85% | Test Loss: 0.0797, Test Acc: 97.44%
+   
    Custom MLP | Epoch [6/10]: Train Loss: 0.0289, Train Acc: 99.05% | Test Loss: 0.0757, Test Acc: 97.68%
+   
    Custom MLP | Epoch [7/10]: Train Loss: 0.0221, Train Acc: 99.27% | Test Loss: 0.0837, Test Acc: 97.70%
+   
    Custom MLP | Epoch [8/10]: Train Loss: 0.0153, Train Acc: 99.53% | Test Loss: 0.0669, Test Acc: 98.06%
+   
    Custom MLP | Epoch [9/10]: Train Loss: 0.0135, Train Acc: 99.56% | Test Loss: 0.0799, Test Acc: 97.98%
+   
    Custom MLP | Epoch [10/10]: Train Loss: 0.0084, Train Acc: 99.75% | Test Loss: 0.0721, Test Acc: 98.16%
    
    ![image](https://github.com/NayunKim25/Deeplearning/assets/144984333/91ddc117-9ddd-4f59-b32e-a0cf97a6e8ba)
 
 **3. Compare the predictive performances of LeNet-5 and custom MLP.**
+
    2의 결과를 보면 Train Loss는 LeNet-5 모델이 0.2811에서 0.0106으로 감소하였고, Custom MLP 모델은 0.3950에서 0.0084로 감소하였다. 따라서 최종 Train Loss는 Custom MLP가 더 낮았으며, Train Accuracy는 LeNet-5 모델이 90.84%에서 99.66%, Custom MLP 모델이 87.68%에서 99.75%로 향상하여 Custom MLP가 높았다.
    또한, Test Loss는 LeNet-5 모델이 0.0614에서 010271로 감소하였고, Custom MLP 모델은 0.1262에서 0.0721로 감소하였다. 따라서 최종 Test Loss는 LeNet-5가 더 낮았으며, Test Accuracy는 LeNet-5 모델이 97.96%에서 99.09%로 향상되었으며, Custom MLP 모델은 95.95%에서 98.16%로 향상하여 LeNet-5가 전반적으로 높았다.
 
    이를 통해 Train sets에 대해서는 Custom MLP가 약간 더 좋은 성능을 보였으나, Test sets에 대해서는 LeNet-5가 더 우수한 성능을 보였으므로, 일반화 성능을 고려하면 LeNet-5 모델의 예측 성능이 뛰어날 것이라고 예상된다. 또한, 이 정확도는 일반적으로 알려진 정확도와 유사한 것으로 보여진다.
 
 **4. Employ at least more than two regularization techniques to improve LeNet-5 model.**
+
   Batch Normalization, Dropout의 두가지 방법을 사용하여 LeNet-5 모델을 개선하였다.
   그 결과 다음과 같은 결과를 얻을 수 있었다.
+  
   LeNet-5 Improved | Epoch [1/10]: Train Loss: 0.3275, Train Acc: 89.80% | Test Loss: 0.0566, Test Acc: 98.28%
   LeNet-5 Improved | Epoch [2/10]: Train Loss: 0.1084, Train Acc: 97.14% | Test Loss: 0.0409, Test Acc: 98.77%
   LeNet-5 Improved | Epoch [3/10]: Train Loss: 0.0813, Train Acc: 97.96% | Test Loss: 0.0413, Test Acc: 98.82%
