@@ -35,15 +35,25 @@ MNIST Classification
    
   **2-(1) LeNet-5**
    LeNet-5 | Epoch [1/10]: Train Loss: 0.2811, Train Acc: 90.84% | Test Loss: 0.0614, Test Acc: 97.96%
+   
    LeNet-5 | Epoch [2/10]: Train Loss: 0.0620, Train Acc: 98.03% | Test Loss: 0.0543, Test Acc: 98.28%
+   
    LeNet-5 | Epoch [3/10]: Train Loss: 0.0431, Train Acc: 98.62% | Test Loss: 0.0449, Test Acc: 98.40%
+   
    LeNet-5 | Epoch [4/10]: Train Loss: 0.0331, Train Acc: 98.99% | Test Loss: 0.0356, Test Acc: 98.86%
+   
    LeNet-5 | Epoch [5/10]: Train Loss: 0.0271, Train Acc: 99.14% | Test Loss: 0.0402, Test Acc: 98.69%
+   
    LeNet-5 | Epoch [6/10]: Train Loss: 0.0220, Train Acc: 99.32% | Test Loss: 0.0328, Test Acc: 98.92%
+   
    LeNet-5 | Epoch [7/10]: Train Loss: 0.0181, Train Acc: 99.39% | Test Loss: 0.0377, Test Acc: 98.80%
+   
    LeNet-5 | Epoch [8/10]: Train Loss: 0.0156, Train Acc: 99.50% | Test Loss: 0.0276, Test Acc: 99.11%
+   
    LeNet-5 | Epoch [9/10]: Train Loss: 0.0128, Train Acc: 99.59% | Test Loss: 0.0289, Test Acc: 98.97%
+   
    LeNet-5 | Epoch [10/10]: Train Loss: 0.0106, Train Acc: 99.66% | Test Loss: 0.0291, Test Acc: 99.09%
+   
    ![image](https://github.com/NayunKim25/Deeplearning/assets/144984333/c9c3da91-0857-4d6c-9c89-f6f40d2bd0eb)
 
   **2-(2) Custom MLP**
