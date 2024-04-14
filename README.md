@@ -83,10 +83,16 @@ MNIST Classification
 
 **3. Compare the predictive performances of LeNet-5 and custom MLP.**
 
-   2의 결과를 보면 Train Loss는 LeNet-5 모델이 0.2811에서 0.0106으로 감소하였고, Custom MLP 모델은 0.3950에서 0.0084로 감소하였다. 따라서 최종 Train Loss는 Custom MLP가 더 낮았으며, Train Accuracy는 LeNet-5 모델이 90.84%에서 99.66%, Custom MLP 모델이 87.68%에서 99.75%로 향상하여 Custom MLP가 높았다.
-   또한, Test Loss는 LeNet-5 모델이 0.0614에서 010271로 감소하였고, Custom MLP 모델은 0.1262에서 0.0721로 감소하였다. 따라서 최종 Test Loss는 LeNet-5가 더 낮았으며, Test Accuracy는 LeNet-5 모델이 97.96%에서 99.09%로 향상되었으며, Custom MLP 모델은 95.95%에서 98.16%로 향상하여 LeNet-5가 전반적으로 높았다.
+   2의 결과를 보면 Train Loss는 LeNet-5 모델이 0.2811에서 0.0106으로 감소하였고, Custom MLP 모델은 0.3950에서 0.0084로 감소하였다. 
+   따라서 최종 Train Loss는 Custom MLP가 더 낮았으며, Train Accuracy는 LeNet-5 모델이 90.84%에서 99.66%, 
+   Custom MLP 모델이 87.68%에서 99.75%로 향상하여 Custom MLP가 높았다.
+   또한, Test Loss는 LeNet-5 모델이 0.0614에서 010271로 감소하였고, Custom MLP 모델은 0.1262에서 0.0721로 감소하였다. 
+   따라서 최종 Test Loss는 LeNet-5가 더 낮았으며, Test Accuracy는 LeNet-5 모델이 97.96%에서 99.09%로 향상되었으며
+   Custom MLP 모델은 95.95%에서 98.16%로 향상하여 LeNet-5가 전반적으로 높았다.
 
-   이를 통해 Train sets에 대해서는 Custom MLP가 약간 더 좋은 성능을 보였으나, Test sets에 대해서는 LeNet-5가 더 우수한 성능을 보였으므로, 일반화 성능을 고려하면 LeNet-5 모델의 예측 성능이 뛰어날 것이라고 예상된다. 또한, 이 정확도는 일반적으로 알려진 정확도와 유사한 것으로 보여진다.
+   이를 통해 Train sets에 대해서는 Custom MLP가 약간 더 좋은 성능을 보였으나, Test sets에 대해서는 LeNet-5가 더 우수한 성능을 보였으므로
+   일반화 성능을 고려하면 LeNet-5 모델의 예측 성능이 뛰어날 것이라고 예상된다. 
+   또한, 이 정확도는 일반적으로 알려진 정확도와 유사한 것으로 보여진다.
 
 **4. Employ at least more than two regularization techniques to improve LeNet-5 model.**
 
@@ -94,15 +100,25 @@ MNIST Classification
   그 결과 다음과 같은 결과를 얻을 수 있었다.
   
   LeNet-5 Improved | Epoch [1/10]: Train Loss: 0.3275, Train Acc: 89.80% | Test Loss: 0.0566, Test Acc: 98.28%
+  
   LeNet-5 Improved | Epoch [2/10]: Train Loss: 0.1084, Train Acc: 97.14% | Test Loss: 0.0409, Test Acc: 98.77%
+  
   LeNet-5 Improved | Epoch [3/10]: Train Loss: 0.0813, Train Acc: 97.96% | Test Loss: 0.0413, Test Acc: 98.82%
+  
   LeNet-5 Improved | Epoch [4/10]: Train Loss: 0.0708, Train Acc: 98.13% | Test Loss: 0.0369, Test Acc: 98.82%
+  
   LeNet-5 Improved | Epoch [5/10]: Train Loss: 0.0603, Train Acc: 98.41% | Test Loss: 0.0364, Test Acc: 98.98%
+  
   LeNet-5 Improved | Epoch [6/10]: Train Loss: 0.0559, Train Acc: 98.43% | Test Loss: 0.0321, Test Acc: 99.11%
+  
   LeNet-5 Improved | Epoch [7/10]: Train Loss: 0.0513, Train Acc: 98.62% | Test Loss: 0.0316, Test Acc: 99.11%
+  
   LeNet-5 Improved | Epoch [8/10]: Train Loss: 0.0437, Train Acc: 98.78% | Test Loss: 0.0320, Test Acc: 99.07%
+  
   LeNet-5 Improved | Epoch [9/10]: Train Loss: 0.0389, Train Acc: 98.92% | Test Loss: 0.0342, Test Acc: 99.16%
+  
   LeNet-5 Improved | Epoch [10/10]: Train Loss: 0.0381, Train Acc: 98.92% | Test Loss: 0.0316, Test Acc: 99.17%
+  
 ![image](https://github.com/NayunKim25/Deeplearning/assets/144984333/f7faef5e-740c-4e78-9683-8ee468588c80)
 
   2-(1)과 비교하여 최종 Test Accuracy가 99.17%로 조금 더 높은 향상된 것을 확인할 수 있었다.
