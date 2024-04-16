@@ -124,7 +124,9 @@ MNIST Classification
   2-(1)과 비교하여 최종 Test Accuracy가 99.17%로 조금 더 높은 향상된 것을 확인할 수 있었다.
 
 
+
 - reference
+
 https://pytorch.org/docs/stable/index.html
 
 https://tutorials.pytorch.kr/beginner/blitz/neural_networks_tutorial.html
