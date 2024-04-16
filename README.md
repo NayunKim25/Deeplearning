@@ -126,8 +126,13 @@ MNIST Classification
 
 - reference
 https://pytorch.org/docs/stable/index.html
+
 https://tutorials.pytorch.kr/beginner/blitz/neural_networks_tutorial.html
+
 https://refstop.github.io/uda-lenet.html
+
 https://resultofeffort.tistory.com/103
+
 https://deep-learning-study.tistory.com/368
+
 https://www.youtube.com/watch?v=otJfhQDytd0
