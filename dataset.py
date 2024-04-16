@@ -61,7 +61,7 @@ if __name__ == '__main__':
     data_dir = 'C:/Users/nayun/Downloads/mnist-classification/mnist-classification/data/train/train'  
     mnist_dataset = MNIST(data_dir)
 
-    # 데이터셋의 첫 번째 이미지와 레이블을 출력
+    # 데이터셋의 첫 번째 이미지와 레이블 출력
     img, label = mnist_dataset[0]
     print(f'first image label: {label}')
     print(f'image shape: {img.shape}')
