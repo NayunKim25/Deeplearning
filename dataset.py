@@ -30,8 +30,8 @@ class MNIST(Dataset):
         
         # 전처리 파이프라인 정의
         self.transform = transforms.Compose([
-            transforms.Grayscale(),  # 흑백 변환
-            transforms.ToTensor(),  # 텐서로 변환
+            transforms.Grayscale(), 
+            transforms.ToTensor(),  
             transforms.Normalize(mean=0.1307, std=0.3081)  # All values should be in a range of [0,1], Subtract mean of 0.1307, and divide by std 0.30
         ])
 
