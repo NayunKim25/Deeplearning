@@ -122,3 +122,12 @@ MNIST Classification
 ![image](https://github.com/NayunKim25/Deeplearning/assets/144984333/f7faef5e-740c-4e78-9683-8ee468588c80)
 
   2-(1)과 비교하여 최종 Test Accuracy가 99.17%로 조금 더 높은 향상된 것을 확인할 수 있었다.
+
+
+- reference
+https://pytorch.org/docs/stable/index.html
+https://tutorials.pytorch.kr/beginner/blitz/neural_networks_tutorial.html
+https://refstop.github.io/uda-lenet.html
+https://resultofeffort.tistory.com/103
+https://deep-learning-study.tistory.com/368
+https://www.youtube.com/watch?v=otJfhQDytd0
